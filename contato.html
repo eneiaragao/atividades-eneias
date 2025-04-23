@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-AU-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site de atividade prática do módulo de CSS e HTML">
+    <meta name="keywords" content="Potifólio, CSS HTML, PALAVRAS CHAVE DO SITE PARA PESQUISA">
+    <link rel ="stylesheet" href="css/estilo.css">
+    <link rel ="stylesheet" href="css/responsivo.css">
+    
+    <title>Contato</title>
+  
+
+</head>
+<body > 
+    <nav class="navbar" >
+       <div class="logo">
+        <h1>Contato</h1>
+       </div> 
+
+        <div class="menu">
+            <a href="formacao.html">Formação</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="index.html"> Página Principal</a>
+            <a id="botao" href="  https://lattes.cnpq.br/0336019474032716">Curriculo Lattes</a>
+
+        </div>
+    </nav>
+<header class="header">
+    <div class="headline">
+        <h2 style="letter-spacing: 15px;">Conhecendo um pouco mais sobre:</h2>
+        <h2 style="font-size: 80px;">Enéias Aragão</h2>
+        
+            <ol style="color: hsl(0, 40%, 48%);"> <!--criando lista ordenada  -->
+                <p style="color: blue; font-family: 'Lobster',cursive; font-size: 24px;">Serviços de Acessoria Educacional relacionado a:</p> 
+                <li > <!-- elemento da lista  -->
+                    Área Educacional                
+                </li>
+                <li> Acompanhamentos Pedágógicos</li>
+                <li>Elaboração de Plano de ensino</li>
+                <li>Elaboração de Adequação Curricular</li>
+            </ol> <br>
+            <ol style="color: hsl(0, 40%, 48%);">
+                <p style="color: blue; font-family: 'Lobster',cursive; font-size: 24px;"> Realizo atividades relacionadas ao voo livre como:</p> 
+                <li> 
+                    Voo Duplo Instrucional                
+                </li>
+                <li > Instrução para Iniciantes no Voo solo</li>
+                
+            </ol> <br>
+            <p style="color: blue; font-family: 'Lobster',cursive; font-size: 24px;">Para entrar em contato basta preencher com seu nome e email solicitando o serviço que entro  em contato o mais breve possível. </p>
+
+            <div >
+                <img src="img/por-sol.jpeg"width="400px; ">
+              
+            </div>
+    </div>
+
+
+    <div class="img-headline">
+         
+        <div class="form-container">
+        
+            <h1 style="text-align: center;
+    margin-bottom: 20px; color: hsl(0, 40%, 48%);">Contato</h1>
+            <form style=" display: flex;flex-direction: column;" > <!--criando formulário-->
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required> <!--recebe entrada solicitada do usuario-->
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><!--recebe entrada solicitada do usuario-->
+                
+                <label for="whatsapp">WhatsApp:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required pattern="[0-9]{9,15}" placeholder="Digite apenas números">
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><!--solicita os usuário que coloque uma mensagem-->
+                
+                <button type="submit">Enviar</button> <!--envio do formulário-->
+            </form>
+    
+        </div>
+
+    </div>
+
+
+
+</header>
+
+</section>
+
+
+
+
+<footer>
+    <div class="logo-rodape">
+    <h1 class="faculdade">Ciências da Computação</h1>
+    <p>Um site feito com HTML e CSS puro!</p>
+</div>
+<b style="color: white;">© Todos os direitos reservados</b>
+</footer>
+<a class="whatsapp" target="_blank" href="https://w.app/9zeqq0">
+<img style="width: 100px;" src="img/whatsapp.png">
+</a>
+
+</body>
+</html>
